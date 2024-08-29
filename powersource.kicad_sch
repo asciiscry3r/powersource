@@ -2040,12 +2040,6 @@
 		(uuid "56c80153-a1e2-4186-bea1-64d8a6d6bf6d")
 	)
 	(junction
-		(at 114.3 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5708290d-4164-40b4-a3f7-7f862032e0e3")
-	)
-	(junction
 		(at 45.72 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2923,6 +2917,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 97.79) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f20355e-183e-4f99-af52-4e4c37491611")
+	)
+	(wire
+		(pts
 			(xy 64.77 82.55) (xy 54.61 82.55)
 		)
 		(stroke
@@ -3353,16 +3357,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 114.3 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b3b6954-33dd-4632-b9c8-d325d1fb3f13")
-	)
-	(wire
-		(pts
 			(xy 182.88 86.36) (xy 182.88 90.17)
 		)
 		(stroke
@@ -3763,6 +3757,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 102.87) (xy 67.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f2fb71-89c7-42f1-9025-fee2bd665df5")
+	)
+	(wire
+		(pts
 			(xy 162.56 72.39) (xy 162.56 86.36)
 		)
 		(stroke
@@ -3923,7 +3927,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 116.84 87.63)
+			(xy 93.98 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3940,6 +3944,16 @@
 			(type default)
 		)
 		(uuid "92709159-7e5e-4859-910c-ebd34fcae832")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92df34c6-b190-4001-b139-5ac13f212e1e")
 	)
 	(wire
 		(pts
@@ -4210,6 +4224,16 @@
 			(type default)
 		)
 		(uuid "ad5f2eb4-5c10-427a-8d04-73893e5b64c0")
+	)
+	(wire
+		(pts
+			(xy 99.06 102.87) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0522064-b1ac-4b1c-a46d-1368a0689975")
 	)
 	(wire
 		(pts
@@ -4733,16 +4757,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 114.3 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db9d0775-fbf0-4550-b42d-069bf77ac775")
-	)
-	(wire
-		(pts
 			(xy 167.64 138.43) (xy 167.64 149.86)
 		)
 		(stroke
@@ -4800,6 +4814,16 @@
 			(type default)
 		)
 		(uuid "dff8e122-6c16-4af8-8231-3a4a2ee90394")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02316c4-bb3f-4bda-8995-3efb122fa77a")
 	)
 	(wire
 		(pts
@@ -5095,6 +5119,16 @@
 		)
 		(uuid d9b3e9e7-dc02-4206-b086-9b4477e57d09)
 	)
+	(text "Line\n"
+		(exclude_from_sim no)
+		(at 69.596 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21ab8910-7ea1-449b-8bd1-e82d64f209e8")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 273.812 193.294 0)
@@ -5114,6 +5148,16 @@
 			)
 		)
 		(uuid "65f967c1-7bce-4718-8b67-b3656b03ec3c")
+	)
+	(text "But this is not a solution of my problems\ncriminals just continue to use and controll me from \npower sources with transformers or coils\nmaybe I use transformerless in future"
+		(exclude_from_sim no)
+		(at 82.296 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98b52d3a-4b08-4fab-83bf-4cd18f6147e7")
 	)
 	(text "PWM POWER SOURCE"
 		(exclude_from_sim no)
